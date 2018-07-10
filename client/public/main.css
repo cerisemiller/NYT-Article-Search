@@ -1,0 +1,54 @@
+body {
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: plum;
+}
+
+.container {
+    background: lightgrey;
+}
+
+button {
+    padding: 3px 5px;
+}
+
+.col-md-12 {
+    padding: 20px;
+}
+
+.search-box {
+    margin: 10px;
+    background-color: palegreen;
+}
+
+.search-results {
+    margin: 10px;
+    background-color: paleturquoise;
+}
+
+.saved-articles {
+    margin: 10px;
+    background-color: lightpink;
+}
+
+.article button {
+    margin-left: 15px;
+}
+
+.article {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.article > a {
+    flex-basis: 100%;
+    margin-bottom: 10px;
+}
+
+#search-topic, #date-start, #date-end {
+    margin-left: 10px;
+}
